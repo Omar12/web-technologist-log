@@ -1,5 +1,7 @@
 ## Web Technologist Log
 
+<http://omar12.github.io/web-technologist-log/>
+
 The Web Technologist Log is a collection of emerging web technologies. They
 will have a brief exaplanation, some code and more resources.
 
