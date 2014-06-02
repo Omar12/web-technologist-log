@@ -12,6 +12,8 @@ laid out on an HTML page. This means that it provides a simpler and more powerfu
 tool for distributing space and aligning content for complex (or simple) layouts
 in web apps or web pages.
 
+Using Flexbox can get your Responsive website layout working as intended.
+
 Below is the barebones to get Flexbox going. The example is keeping the "Mobile First"
 approach.
 
