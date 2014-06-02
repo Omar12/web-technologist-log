@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Web Technologist Log]]></title>
-  <link href="http://Omar12.github.io/web-technologist-log/atom.xml" rel="self"/>
-  <link href="http://Omar12.github.io/web-technologist-log/"/>
-  <updated>2014-06-01T22:24:49-05:00</updated>
-  <id>http://Omar12.github.io/web-technologist-log/</id>
+  <link href="http://omar12.github.io/web-technologist-log/atom.xml" rel="self"/>
+  <link href="http://omar12.github.io/web-technologist-log/"/>
+  <updated>2014-06-01T22:28:57-05:00</updated>
+  <id>http://omar12.github.io/web-technologist-log/</id>
   <author>
     <name><![CDATA[Omar Martinez]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Working With Flex]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/"/>
+    <link href="http://omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/"/>
     <updated>2014-06-01T20:40:22-05:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex</id>
+    <id>http://omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex</id>
     <content type="html"><![CDATA[<p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
 The child elements of a flex container have greater &ldquo;flexibility&rdquo; on how it is
 laid out on an HTML page. This means that it provides a simpler and more powerful
@@ -201,9 +201,9 @@ adjust the widths of the adjacent elements.</p>
   
   <entry>
     <title type="html"><![CDATA[The Web Technologist Log]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/"/>
+    <link href="http://omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/"/>
     <updated>2014-06-01T00:19:21-05:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log</id>
+    <id>http://omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log</id>
     <content type="html"><![CDATA[<p>Web Technologies are in a continual enhancement. We see new API&rsquo;s that bring
 different visual, performance or hardware information features.</p>
 
