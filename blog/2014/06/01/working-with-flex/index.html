@@ -9,12 +9,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Web Technologist Log</title>
+  <title>Working With Flex - Web Technologist Log</title>
   <meta name="author" content="Omar Martinez">
 
   
-  <meta name="description" content="Web Technologist Log
-A record of the latest web technologies about me Working With Flex Flexbox (or flex layout) is a CSS box model optimized for &hellip;">
+  <meta name="description" content="Working With Flex written Jun 1st, 2014 Flexbox (or flex layout) is a CSS box model optimized for user interface design.
+The child elements of a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -23,7 +23,7 @@ A record of the latest web technologies about me Working With Flex Flexbox (or f
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://yoursite.com">
+  <link rel="canonical" href="http://yoursite.com/blog/2014/06/01/working-with-flex">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Web Technologist Log" type="application/atom+xml">
@@ -40,121 +40,93 @@ A record of the latest web technologies about me Working With Flex Flexbox (or f
       <img src="/images/home.png"/>
     </a>
 
-    <div class="home-page">
-  <div class="hero">
-    <h1>Web Technologist Log</h1>
-<p>A record of the latest web technologies</p>
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Working With Flex</h1>
+        <div class="meta">
+          written 
 
-  </div>
 
-  <div class="home-field">
-    <div class="home-landing her-row">
-      <div class="container">
-        <div class="row">
-          <div id="about-me" class="col-md-offset-3 col-md-6">
-  <h4>about me</h4>
-  <p></p>
-  <div class="social-icon-list">
-  	
-    <a title="Twitter" href="https://twitter.com/omar12"><img src="/images/glyphicons_social_31_twitter.png"/></a>
-    
-    
-    <a title="GitHub" href="https://github.com/omar12"><img src="/images/glyphicons_social_21_github.png"/></a>
-    
-    
-  </div>
-</div>
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2014-06-01T20:40:22-05:00" pubdate data-updated="true">Jun 1<span>st</span>, 2014</time>
+          
+
 
         </div>
-      </div>
-    </div>
-
-    <div class="article-list">
-      <div class="container">
-        
-          
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-              <article>
-  <h2><a href="/blog/2014/06/01/working-with-flex/">Working With Flex</a></h2>
-  
-  <p>
-    <p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
+        <p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
 The child elements of a flex container have greater &ldquo;flexibility&rdquo; on how it is
 laid out on an HTML page. This means that it provides a simpler and more powerful
 tool for distributing space and aligning content for complex (or simple) layouts
 in web apps or web pages.</p>
 
-
-
-
 <p>Below is the barebones to get Flexbox going. The example is keeping the &ldquo;Mobile First&rdquo;
 approach.</p>
 
-
-
-
 <p><a href="http://codepen.io/Omar12/full/itDzI/"><strong>View Demo</strong></a></p>
-
-
-
 
 <p>The following is a barebones example of the HTML:</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;flex&mdash;products&quot;</span><span class="nt">&gt;</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;flex--products&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 1<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 2<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 3<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 4<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'><span class="nt">&lt;/div&gt;</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>First we define <code>display: flex</code> to the parent element that we want to hold the
 elements that will flex.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>  <span class="k">display</span><span class="o">:</span> <span class="n">flex</span><span class="p">;</span>
-</span><span class='line'>  <span class="n">flex</span><span class="o">&ndash;</span><span class="k">direction</span><span class="o">:</span> <span class="n">row</span><span class="p">;</span>
+</span><span class='line'>  <span class="n">flex</span><span class="o">-</span><span class="k">direction</span><span class="o">:</span> <span class="n">row</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p><code>flex-direction: row</code> will place each child element on its own row.</p>
 
-
-
-
 <p>For wider viewports, we will switch the elements to be in its each column.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 </pre></td><td class='code'><pre><code class='scss'><span class='line'><span class="k">@media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="nd">:</span> <span class="nt">46rem</span><span class="o">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>    <span class="na">flex-direction</span><span class="o">:</span> <span class="n">column</span><span class="p">;</span>
 </span><span class='line'>  <span class="p">}</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>For the child elements, we define a <code>flex: auto</code>. <code>flex: auto</code> will automatically
 adjust the widths of the adjacent elements.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -166,12 +138,12 @@ adjust the widths of the adjacent elements.</p>
 </span><span class='line'>  <span class="na">margin</span><span class="o">:</span> <span class="mf">.1</span><span class="kt">rem</span><span class="p">;</span>
 </span><span class='line'>  <span class="na">background</span><span class="o">:</span> <span class="nv">$product-color</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Full SCSS:</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -214,7 +186,7 @@ adjust the widths of the adjacent elements.</p>
 </span><span class='line'>  <span class="na">padding</span><span class="o">:</span> <span class="mf">.5</span><span class="kt">rem</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
 </span><span class='line'>
-</span><span class='line'><span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</span><span class='line'><span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>  <span class="na">display</span><span class="o">:</span> <span class="n">flex</span><span class="p">;</span>
 </span><span class='line'>  <span class="na">flex-direction</span><span class="o">:</span> <span class="n">row</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
@@ -227,21 +199,16 @@ adjust the widths of the adjacent elements.</p>
 </span><span class='line'><span class="p">}</span>
 </span><span class='line'>
 </span><span class='line'><span class="k">@media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="nd">:</span> <span class="nt">46rem</span><span class="o">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>    <span class="na">flex-direction</span><span class="o">:</span> <span class="n">column</span><span class="p">;</span>
 </span><span class='line'>  <span class="p">}</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Below you will find more Flexbox resources:</p>
 
-
-
-
 <p><strong>Reading</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks: A Guide To Flexbox</a></li>
@@ -249,12 +216,7 @@ adjust the widths of the adjacent elements.</p>
 </ul>
 
 
-
-
 <p><strong>Code</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://www.sketchingwithcss.com/samplechapter/cheatsheet.html">The Ultimate Flexbox Cheat Sheet</a></li>
@@ -262,12 +224,7 @@ adjust the widths of the adjacent elements.</p>
 </ul>
 
 
-
-
 <p><strong>Sandboxes</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://bennettfeely.com/flexplorer/">flexexplorer</a></li>
@@ -275,12 +232,7 @@ adjust the widths of the adjacent elements.</p>
 </ul>
 
 
-
-
 <p><strong>Technical</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://www.w3.org/TR/css3-flexbox/">W3C Flexible Box Layout Module</a></li>
@@ -289,87 +241,23 @@ adjust the widths of the adjacent elements.</p>
 </ul>
 
 
-
-
-  </p>
-  <span class="meta">
-    written 
-
-
-
-
-
-
-
-
-  
-
-
-
-<time datetime="2014-06-01T20:40:22-05:00" pubdate data-updated="true">Jun 1<span>st</span>, 2014</time>
-    
-
-
-  </span>
-
-  
-</article>
-
-            </div>
-          </div>
-        
-          
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-              <article>
-  <h2><a href="/blog/2014/06/01/the-web-technologist-log/">The Web Technologist Log</a></h2>
-  
-  <p>
-    <p>Web Technologies are in a continual enhancement. We see new API&rsquo;s that bring
-different visual, performance or hardware information features.</p>
-
-
-
-
-<p>The log will be a collection of any upcoming browser features. It will describe
-how it does, a code sample of how it should work, a working example and any
-external resources available.</p>
-
-
-  </p>
-  <span class="meta">
-    written 
-
-
-
-
-
-
-
-
-  
-
-
-
-<time datetime="2014-06-01T00:19:21-05:00" pubdate data-updated="true">Jun 1<span>st</span>, 2014</time>
-    
-
-
-  </span>
-
-  
-</article>
-
-            </div>
-          </div>
-        
       </div>
     </div>
+  </div>
+</article>
 
-    <hr class="divider-short"/>
+<hr class="divider-short"/>
 
-    <div class="archive-link">
-      <h3><a href="/posts/">All Posts</a></h3>
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/blog/2014/06/01/the-web-technologist-log/" title="Previous Post: The Web Technologist Log">&laquo; Previous: The Web Technologist Log</a>
+        
+
+        
+      </div>
     </div>
   </div>
 </div>
