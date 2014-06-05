@@ -4,7 +4,7 @@
   <title><![CDATA[Web Technologist Log]]></title>
   <link href="http://omar12.github.io/web-technologist-log/atom.xml" rel="self"/>
   <link href="http://omar12.github.io/web-technologist-log/"/>
-  <updated>2014-06-04T20:15:57-05:00</updated>
+  <updated>2014-06-04T20:18:03-05:00</updated>
   <id>http://omar12.github.io/web-technologist-log/</id>
   <author>
     <name><![CDATA[Omar Martinez]]></name>
@@ -94,11 +94,59 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 
 <p>Create an html file in the <strong>web-component</strong> folder.</p>
 
-<p>File /Users/om/Projects/blogs/web-technologist-log/code_examples/web-components/my-cool-element.html could not be found</p>
+<figure class='code'><figcaption><span> (my-cool-element.html)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/web-components/my-cool-element.html'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- Import Polymer --&gt;</span>
+</span><span class='line'><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;../bower_components/polymer/polymer.html&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- Define your custom element --&gt;</span>
+</span><span class='line'><span class="nt">&lt;polymer</span><span class="na">-element</span> <span class="na">name=</span><span class="s">&quot;my-cool-element&quot;</span> <span class="na">noscript</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;template&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;h3&gt;</span>My Cool Element<span class="nt">&lt;/h3&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;/template&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">&lt;</span>/polymer-element&gt;
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>You can include Custom Elements on other Custom Elements (cue Xhibit meme).</p>
 
-<p>File /Users/om/Projects/blogs/web-technologist-log/code_examples/web-components/my-super-cool-element.html could not be found</p>
+<figure class='code'><figcaption><span> (my-super-cool-element.html)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/web-components/my-super-cool-element.html'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- Import Polymer --&gt;</span>
+</span><span class='line'><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;../bower_components/polymer/polymer.html&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;my-cool-element.html&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- Define your custom element --&gt;</span>
+</span><span class='line'><span class="nt">&lt;polymer</span><span class="na">-element</span> <span class="na">name=</span><span class="s">&quot;my-cool-element&quot;</span> <span class="na">noscript</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="nt">&lt;template&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;h1&gt;</span>Super Cool Element!<span class="nt">&lt;/h1&gt;</span>
+</span><span class='line'>        <span class="nt">&lt;my</span><span class="na">-cool-element</span><span class="nt">&gt;</span><span class="err">&lt;</span>/my-cool-element&gt;
+</span><span class='line'>    <span class="nt">&lt;/template&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">&lt;</span>/polymer-element&gt;
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Of course, the above is not a practical example, but something to manipulate or
 read data.</p>
