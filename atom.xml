@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Web Technologist Log]]></title>
-  <link href="http://Omar12.github.io/atom.xml" rel="self"/>
-  <link href="http://Omar12.github.io/"/>
-  <updated>2014-06-04T20:37:01-05:00</updated>
-  <id>http://Omar12.github.io/</id>
+  <link href="http://Omar12.github.io/web-technologist-log/atom.xml" rel="self"/>
+  <link href="http://Omar12.github.io/web-technologist-log/"/>
+  <updated>2014-06-04T20:45:30-05:00</updated>
+  <id>http://Omar12.github.io/web-technologist-log/</id>
   <author>
     <name><![CDATA[Omar Martinez]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Web Components]]></title>
-    <link href="http://Omar12.github.io/blog/2014/06/04/web-components/"/>
+    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/04/web-components/"/>
     <updated>2014-06-04T16:30:00-05:00</updated>
-    <id>http://Omar12.github.io/blog/2014/06/04/web-components</id>
+    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/04/web-components</id>
     <content type="html"><![CDATA[<p>Probably by now, you have heard of Web Components. Web Components are comprised
 of four different specifications (
 <a href="http://www.polymer-project.org/platform/custom-elements.html">Custom Elements</a>,
@@ -40,7 +40,7 @@ DOM and reduce the amount spent learning the code or API.</p>
 <li>Twitter Profile Card &ndash; <code>&lt;twitter-profile-card user="omar12" tweets="5"&gt;&lt;/twitter-profile-card&gt;</code></li>
 <li>Stripe Payment Form &ndash; <code>&lt;stripe-payment id="12345"&gt;&lt;/stripe-payment&gt;</code></li>
 <li>Disqus Comments &ndash; <code>&lt;disqus-comments short_name="awesomeblog"&gt;&lt;/disqus-comments&gt;</code></li>
-<li>Video Player &ndash; <code>&lt;my-video-player src="http://Omar12.github.io/path-to-video/videofile.mp4"&gt;&lt;/my-video-player&gt;</code></li>
+<li>Video Player &ndash; <code>&lt;my-video-player src="http://Omar12.github.io/web-technologist-log/path-to-video/videofile.mp4"&gt;&lt;/my-video-player&gt;</code></li>
 </ul>
 
 
@@ -94,7 +94,7 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 
 <p>Create an html file in the <strong>web-component</strong> folder.</p>
 
-<figure class='code'><figcaption><span> (my-cool-element.html)</span> <a href='http://Omar12.github.io/code_examples/web-components/my-cool-element.html'>download</a></figcaption>
+<figure class='code'><figcaption><span> (my-cool-element.html)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/web-components/my-cool-element.html'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -120,7 +120,7 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 
 <p>You can include Custom Elements on other Custom Elements (cue Xhibit meme).</p>
 
-<figure class='code'><figcaption><span> (my-super-cool-element.html)</span> <a href='http://Omar12.github.io/code_examples/web-components/my-super-cool-element.html'>download</a></figcaption>
+<figure class='code'><figcaption><span> (my-super-cool-element.html)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/web-components/my-super-cool-element.html'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -171,9 +171,9 @@ energy behind Web Components, we can only hope more adoption of the technologies
   
   <entry>
     <title type="html"><![CDATA[Working With Flex]]></title>
-    <link href="http://Omar12.github.io/blog/2014/06/01/working-with-flex/"/>
+    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/"/>
     <updated>2014-06-01T20:40:22-05:00</updated>
-    <id>http://Omar12.github.io/blog/2014/06/01/working-with-flex</id>
+    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex</id>
     <content type="html"><![CDATA[<p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
 The child elements of a flex container have greater &ldquo;flexibility&rdquo; on how it is
 laid out on an HTML page. This means that it provides a simpler and more powerful
@@ -357,9 +357,9 @@ adjust the widths of the adjacent elements.</p>
   
   <entry>
     <title type="html"><![CDATA[The Web Technologist Log]]></title>
-    <link href="http://Omar12.github.io/blog/2014/06/01/the-web-technologist-log/"/>
+    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/"/>
     <updated>2014-06-01T00:19:21-05:00</updated>
-    <id>http://Omar12.github.io/blog/2014/06/01/the-web-technologist-log</id>
+    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log</id>
     <content type="html"><![CDATA[<p>Web Technologies are in a continual enhancement. We see new API&rsquo;s that bring
 different visual, performance or hardware information features.</p>
 
