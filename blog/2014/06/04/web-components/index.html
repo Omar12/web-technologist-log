@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Web Components - Web Technologist Log</title>
+  <meta name="author" content="Omar Martinez">
+
+  
+  <meta name="description" content="Web Components written Jun 4th, 2014 Probably by now, you have heard of Web Components. Web Components are comprised
+of four different &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://omar12.github.io/web-technologist-log/blog/2014/06/04/web-components">
+  <link href="/web-technologist-log/favicon.png" rel="icon">
+  <link href="/web-technologist-log/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Web Technologist Log" type="application/atom+xml">
+  <script src="/web-technologist-log/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/web-technologist-log/javascripts/octopress.js" type="text/javascript"></script>
+  
+
+</head>
+
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
+
+    <article role="article" class="full-single-article">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Web Components</h1>
+        <div class="meta">
+          written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2014-06-04T16:30:00-05:00" pubdate data-updated="true">Jun 4<span>th</span>, 2014</time>
+          
+
+
+        </div>
+        <p>Probably by now, you have heard of Web Components. Web Components are comprised
+of four different specifications (
+<a href="http://www.polymer-project.org/platform/custom-elements.html">Custom Elements</a>,
+<a href="http://www.polymer-project.org/docs/polymer/template.html">Templates</a>,
+<a href="http://www.polymer-project.org/platform/shadow-dom.html">Shadow DOM</a> and
+<a href="http://www.polymer-project.org/platform/html-imports.html">HTML imports</a>). It&rsquo;s
+a neat placed package of web technologies.</p>
+
+<p>The goal of Web Components, is to organize and standardize best practices for web
+technologies. We all have seen or experienced how polluted a project can get when we
+start adding dependencies to it.</p>
+
+<p>A Web Component is meant to keep things organized, to not conflict with the existing
+DOM and reduce the amount spent learning the code or API.</p>
+
+<p>Some ideas of where Web Components would work:</p>
+
+<ul>
+<li>Photo Carousel &ndash; <code>&lt;photo-carousel src="['pic1.jpg', 'pic2.jpg']"&gt;&lt;/photo-carousel&gt;</code></li>
+<li>Twitter Profile Card &ndash; <code>&lt;twitter-profile-card user="omar12" tweets="5"&gt;&lt;/twitter-profile-card&gt;</code></li>
+<li>Stripe Payment Form &ndash; <code>&lt;stripe-payment id="12345"&gt;&lt;/stripe-payment&gt;</code></li>
+<li>Disqus Comments &ndash; <code>&lt;disqus-comments short_name="awesomeblog"&gt;&lt;/disqus-comments&gt;</code></li>
+<li>Video Player &ndash; <code>&lt;my-video-player src="/web-technologist-log/path-to-video/videofile.mp4"&gt;&lt;/my-video-player&gt;</code></li>
+</ul>
+
+
+<p>SaaS companies can provide inhouse Web Components to their customers and have it
+running in no time.</p>
+
+<p>In &ldquo;Old HTML&rdquo; terms, a Web Component is a JavaScript plugin on an iframe. We know
+that even has its limitations and it feels wrong in some way. But please, don&rsquo;t
+think of them like that.</p>
+
+<h3>How to work with Web Components using Polymer</h3>
+
+<p>1.Download Polymer</p>
+
+<p>We will download Polymer using Bower. If you haven&rsquo;t heard of Bower, it&rsquo;s basically
+a package manager for project dependencies. Find out more about Bower <a href="http://bower.io/">here</a>.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>bower init
+</span><span class='line'>bower install --save Polymer/platform
+</span><span class='line'>bower install --save Polymer/polymer
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Read more about the installation <a href="http://www.polymer-project.org/docs/start/getting-the-code.html">here</a>.</p>
+
+<p>2.We add the following in the <code>&lt;head&gt;</code> of where you will include your Web Component.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;head&gt;</span>
+</span><span class='line'>  <span class="c">&lt;!-- 1. Import the Web Components Polyfill --&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;bower_components/platform/platform.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="c">&lt;!-- 2. Import the Custom Elements--&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;web-components/my-cool-element.html&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'><span class="nt">&lt;/head&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The 2 things to notice, is that we need to include the Polymer Polyfill.</p>
+
+<p>3.Build your Polymer element.</p>
+
+<p>Create an html file in the <strong>web-component</strong> folder.</p>
+
+<p>File /Users/om/Projects/blogs/web-technologist-log/code_examples/web-components/my-cool-element.html could not be found</p>
+
+<p>You can include Custom Elements on other Custom Elements (cue Xhibit meme).</p>
+
+<p>File /Users/om/Projects/blogs/web-technologist-log/code_examples/web-components/my-super-cool-element.html could not be found</p>
+
+<p>Of course, the above is not a practical example, but something to manipulate or
+read data.</p>
+
+<p>Right now, Web Components are <a href="http://jonrimmer.github.io/are-we-componentized-yet/">partially supported</a>
+on Chrome/Opera (Blink) and Firefox. No support on Safari or IE.</p>
+
+<p>Keep an eye on it, Google and Mozilla are spending good amounts of
+energy behind Web Components, we can only hope more adoption of the technologies.</p>
+
+<h3>More Reading and Resources</h3>
+
+<ul>
+<li><a href="http://webcomponents.org/">http://webcomponents.org/</a></li>
+<li><a href="http://webcomponents.org/articles/web-components-best-practices/">http://webcomponents.org/articles/web-components-best-practices/</a></li>
+<li><a href="http://www.polymer-project.org/">http://www.polymer-project.org/</a></li>
+<li><a href="http://component.kitchen/">http://component.kitchen/</a></li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr class="divider-short"/>
+
+<div class="archive-link">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        
+          <a class="pull-left" href="/web-technologist-log/blog/2014/06/01/working-with-flex/" title="Previous Post: Working with Flex">&laquo; Previous: Working with Flex</a>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
+</div>
+
+<div class="col-md-2">
+  <div class="social-icon-list">
+    
+    <a href="https://twitter.com/omar12"><img src="/images/glyphicons_social_31_twitter.png"/></a>
+    
+
+    
+    <a href="https://github.com/omar12"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
+
+    
+  </div>
+</div>
+
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
+
+
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
