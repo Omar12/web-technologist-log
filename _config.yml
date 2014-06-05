@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://omar12.github.io/web-technologist-log
+url: http://Omar12.github.io/web-technologist-log
 title: Web Technologist Log
 subtitle: A record of the latest web technologies
 author: Omar Martinez
@@ -32,7 +32,7 @@ permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
 plugins: plugins
-code_dir: ../code_examples
+code_dir: code_examples
 category_dir: blog/categories
 markdown: rdiscount
 rdiscount:
