@@ -19,7 +19,7 @@ approach.
 
 [**View Demo**](http://codepen.io/Omar12/full/itDzI/)
 
-The following is a barebones example of the HTML:
+### The following is a barebones example of the HTML:
 ```html
 <div class="flex--products">
   <div class="product">Product 1</div>
@@ -94,7 +94,7 @@ body {
 }
 ```
 
-Below you will find more Flexbox resources:
+### Below you will find more Flexbox resources:
 
 **Reading**
 
