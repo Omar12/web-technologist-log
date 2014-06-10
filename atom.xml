@@ -4,7 +4,7 @@
   <title><![CDATA[Web Technologist Log]]></title>
   <link href="http://Omar12.github.io/web-technologist-log/atom.xml" rel="self"/>
   <link href="http://Omar12.github.io/web-technologist-log/"/>
-  <updated>2014-06-09T22:00:30-05:00</updated>
+  <updated>2014-06-09T22:30:33-07:00</updated>
   <id>http://Omar12.github.io/web-technologist-log/</id>
   <author>
     <name><![CDATA[Omar Martinez]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Hardware Access via JavaScript]]></title>
     <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript/"/>
-    <updated>2014-06-04T20:59:31-05:00</updated>
+    <updated>2014-06-04T18:59:31-07:00</updated>
     <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript</id>
     <content type="html"><![CDATA[<p>AHardware access via web browsers is becoming integral of web technologies.
 Web technology platforms are used more to develop apps that live outside of the
@@ -298,7 +298,7 @@ is an attempt to build a camera using web technologies.</p>
   <entry>
     <title type="html"><![CDATA[Web Components]]></title>
     <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/04/web-components/"/>
-    <updated>2014-06-04T16:30:00-05:00</updated>
+    <updated>2014-06-04T14:30:00-07:00</updated>
     <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/04/web-components</id>
     <content type="html"><![CDATA[<p>Probably by now, you have heard of Web Components. Web Components are comprised
 of four different specifications (
@@ -454,7 +454,7 @@ energy behind Web Components, we can only hope more adoption of the technologies
   <entry>
     <title type="html"><![CDATA[Working With Flex]]></title>
     <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/"/>
-    <updated>2014-06-01T20:40:22-05:00</updated>
+    <updated>2014-06-01T18:40:22-07:00</updated>
     <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex</id>
     <content type="html"><![CDATA[<p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
 The child elements of a flex container have greater &ldquo;flexibility&rdquo; on how it is
@@ -639,9 +639,9 @@ adjust the widths of the adjacent elements.</p>
   
   <entry>
     <title type="html"><![CDATA[The Web Technologist Log]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/"/>
-    <updated>2014-06-01T00:19:21-05:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log</id>
+    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/05/31/the-web-technologist-log/"/>
+    <updated>2014-05-31T22:19:21-07:00</updated>
+    <id>http://Omar12.github.io/web-technologist-log/blog/2014/05/31/the-web-technologist-log</id>
     <content type="html"><![CDATA[<p>Web Technologies are in a continual enhancement. We see new API&rsquo;s that bring
 different visual, performance or hardware information features.</p>
 
