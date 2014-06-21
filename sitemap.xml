@@ -2,38 +2,34 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/
+            http://omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/
         </loc>
         <lastmod>2014-06-21T12:10:46-04:00</lastmod>
     </url>
     <url>
-        <loc>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/</loc>
+        <loc>http://omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/</loc>
         <lastmod>2014-06-21T12:10:46-04:00</lastmod>
     </url>
     <url>
-        <loc>http://Omar12.github.io/web-technologist-log/blog/2014/06/04/web-components/</loc>
+        <loc>http://omar12.github.io/web-technologist-log/blog/2014/06/04/web-components/</loc>
         <lastmod>2014-06-21T12:10:46-04:00</lastmod>
     </url>
     <url>
         <loc>
-            http://Omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript/
+            http://omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript/
         </loc>
         <lastmod>2014-06-21T12:10:46-04:00</lastmod>
     </url>
     <url>
-        <loc>http://Omar12.github.io/web-technologist-log/blog/2014/06/21/css-will-change/</loc>
-        <lastmod>2014-06-21T12:40:50-04:00</lastmod>
+        <loc>http://omar12.github.io/web-technologist-log/</loc>
+        <lastmod>2014-06-21T12:10:46-04:00</lastmod>
     </url>
     <url>
-        <loc>http://Omar12.github.io/web-technologist-log/</loc>
-        <lastmod>2014-06-21T12:40:50-04:00</lastmod>
+        <loc>http://omar12.github.io/web-technologist-log/posts/</loc>
+        <lastmod>2014-06-21T12:10:46-04:00</lastmod>
     </url>
     <url>
-        <loc>http://Omar12.github.io/web-technologist-log/posts/</loc>
-        <lastmod>2014-06-21T12:40:50-04:00</lastmod>
-    </url>
-    <url>
-        <loc>http://Omar12.github.io/web-technologist-log/robots.txt</loc>
+        <loc>http://omar12.github.io/web-technologist-log/robots.txt</loc>
         <lastmod>2014-05-31T23:26:59-04:00</lastmod>
     </url>
 </urlset>

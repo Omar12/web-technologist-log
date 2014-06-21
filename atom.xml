@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Web Technologist Log]]></title>
-  <link href="http://Omar12.github.io/web-technologist-log/atom.xml" rel="self"/>
-  <link href="http://Omar12.github.io/web-technologist-log/"/>
-  <updated>2014-06-21T12:55:32-04:00</updated>
-  <id>http://Omar12.github.io/web-technologist-log/</id>
+  <link href="http://omar12.github.io/web-technologist-log/atom.xml" rel="self"/>
+  <link href="http://omar12.github.io/web-technologist-log/"/>
+  <updated>2014-06-21T13:42:21-04:00</updated>
+  <id>http://omar12.github.io/web-technologist-log/</id>
   <author>
     <name><![CDATA[Omar Martinez]]></name>
     
@@ -14,19 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[CSS will-change]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/21/css-will-change/"/>
-    <updated>2014-06-21T12:40:50-04:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/21/css-will-change</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Hardware Access via JavaScript]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript/"/>
+    <link href="http://omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript/"/>
     <updated>2014-06-04T21:59:31-04:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript</id>
+    <id>http://omar12.github.io/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript</id>
     <content type="html"><![CDATA[<p>AHardware access via web browsers is becoming integral of web technologies.
 Web technology platforms are used more to develop apps that live outside of the
 web. Faster browser release cycles has to helped bring hardware access to web browsers.</p>
@@ -73,7 +64,7 @@ longitude and latitude.</p>
 
 <p>The device orientation returns the values collected by the Gyroscope.</p>
 
-<figure class='code'><figcaption><span> (orientation-1.js)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/hardware-access/orientation-1.js'>download</a></figcaption>
+<figure class='code'><figcaption><span> (orientation-1.js)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/hardware-access/orientation-1.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -89,7 +80,7 @@ longitude and latitude.</p>
 
 
 
-<figure class='code'><figcaption><span> (orientation-2.js)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/hardware-access/orientation-2.js'>download</a></figcaption>
+<figure class='code'><figcaption><span> (orientation-2.js)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/hardware-access/orientation-2.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -151,7 +142,7 @@ longitude and latitude.</p>
 
 
 
-<figure class='code'><figcaption><span> (getUserMedia.js)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/hardware-access/getUserMedia.js'>download</a></figcaption>
+<figure class='code'><figcaption><span> (getUserMedia.js)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/hardware-access/getUserMedia.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -209,7 +200,7 @@ longitude and latitude.</p>
 used to measure the battery usage that your app is using. This can be used to
 manage your apps resources, what to trigger and what not.</p>
 
-<figure class='code'><figcaption><span> (battery-api.js)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/hardware-access/battery-api.js'>download</a></figcaption>
+<figure class='code'><figcaption><span> (battery-api.js)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/hardware-access/battery-api.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -306,9 +297,9 @@ is an attempt to build a camera using web technologies.</p>
   
   <entry>
     <title type="html"><![CDATA[Web Components]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/04/web-components/"/>
+    <link href="http://omar12.github.io/web-technologist-log/blog/2014/06/04/web-components/"/>
     <updated>2014-06-04T17:30:00-04:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/04/web-components</id>
+    <id>http://omar12.github.io/web-technologist-log/blog/2014/06/04/web-components</id>
     <content type="html"><![CDATA[<p>Probably by now, you have heard of Web Components. Web Components are comprised
 of four different specifications (
 <a href="http://www.polymer-project.org/platform/custom-elements.html">Custom Elements</a>,
@@ -331,7 +322,7 @@ DOM and reduce the amount spent learning the code or API.</p>
 <li>Twitter Profile Card &ndash; <code>&lt;twitter-profile-card user="omar12" tweets="5"&gt;&lt;/twitter-profile-card&gt;</code></li>
 <li>Stripe Payment Form &ndash; <code>&lt;stripe-payment id="12345"&gt;&lt;/stripe-payment&gt;</code></li>
 <li>Disqus Comments &ndash; <code>&lt;disqus-comments short_name="awesomeblog"&gt;&lt;/disqus-comments&gt;</code></li>
-<li>Video Player &ndash; <code>&lt;my-video-player src="http://Omar12.github.io/web-technologist-log/path-to-video/videofile.mp4"&gt;&lt;/my-video-player&gt;</code></li>
+<li>Video Player &ndash; <code>&lt;my-video-player src="http://omar12.github.io/web-technologist-log/path-to-video/videofile.mp4"&gt;&lt;/my-video-player&gt;</code></li>
 </ul>
 
 
@@ -385,7 +376,7 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 
 <p>Create an html file in the <strong>web-component</strong> folder.</p>
 
-<figure class='code'><figcaption><span> (my-cool-element.html)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/web-components/my-cool-element.html'>download</a></figcaption>
+<figure class='code'><figcaption><span> (my-cool-element.html)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/web-components/my-cool-element.html'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -411,7 +402,7 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 
 <p>You can include Custom Elements on other Custom Elements (cue Xhibit meme).</p>
 
-<figure class='code'><figcaption><span> (my-super-cool-element.html)</span> <a href='http://Omar12.github.io/web-technologist-log/code_examples/web-components/my-super-cool-element.html'>download</a></figcaption>
+<figure class='code'><figcaption><span> (my-super-cool-element.html)</span> <a href='http://omar12.github.io/web-technologist-log/code_examples/web-components/my-super-cool-element.html'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -462,9 +453,9 @@ energy behind Web Components, we can only hope more adoption of the technologies
   
   <entry>
     <title type="html"><![CDATA[Working with Flex]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/"/>
+    <link href="http://omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex/"/>
     <updated>2014-06-01T21:40:22-04:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex</id>
+    <id>http://omar12.github.io/web-technologist-log/blog/2014/06/01/working-with-flex</id>
     <content type="html"><![CDATA[<p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
 The child elements of a flex container have greater &ldquo;flexibility&rdquo; on how it is
 laid out on an HTML page. This means that it provides a simpler and more powerful
@@ -648,9 +639,9 @@ adjust the widths of the adjacent elements.</p>
   
   <entry>
     <title type="html"><![CDATA[The Web Technologist Log]]></title>
-    <link href="http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/"/>
+    <link href="http://omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log/"/>
     <updated>2014-06-01T01:19:21-04:00</updated>
-    <id>http://Omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log</id>
+    <id>http://omar12.github.io/web-technologist-log/blog/2014/06/01/the-web-technologist-log</id>
     <content type="html"><![CDATA[<p>Web Technologies are in a continual enhancement. We see new API&rsquo;s that bring
 different visual, performance or hardware information features.</p>
 
