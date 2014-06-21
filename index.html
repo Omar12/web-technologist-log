@@ -3,18 +3,14 @@
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>Web Technologist Log</title>
   <meta name="author" content="Omar Martinez">
 
   
-  <meta name="description" content="Web Technologist Log
-A record of the latest web technologies about me Hardware Access via JavaScript AHardware access via web browsers is becoming &hellip;">
+  <meta name="description" content="CSS Will-change Hardware Access via JavaScript AHardware access via web browsers is becoming integral of web technologies.
+Web technology platforms &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,95 +20,200 @@ A record of the latest web technologies about me Hardware Access via JavaScript 
 
   
   <link rel="canonical" href="http://Omar12.github.io/web-technologist-log">
-  <link href="/web-technologist-log/favicon.png" rel="icon">
-  <link href="/web-technologist-log/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/styles.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Web Technologist Log" type="application/atom+xml">
-  <script src="/web-technologist-log/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/web-technologist-log/javascripts/octopress.js" type="text/javascript"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/javascripts/jquery.sidr.min.js"></script>
+  <script src="/javascripts/ah-blue.js"></script>
+  
   
 
-</head>
+</head> 
 
-  <body>
-    <a href="/web-technologist-log/" class="home-icon">
-      <img src="/web-technologist-log/images/home.png"/>
-    </a>
-
-    <div class="home-page">
-  <div class="hero">
-    <h1>Web Technologist Log</h1>
-<p>A record of the latest web technologies</p>
-
-  </div>
-
-  <div class="home-field">
-    <div class="home-landing her-row">
-      <div class="container">
-        <div class="row">
-          <div id="about-me" class="col-md-offset-3 col-md-6">
-  <h4>about me</h4>
-  <p></p>
-  <div class="social-icon-list">
-  	
-    <a title="Twitter" href="https://twitter.com/omar12"><img src="/web-technologist-log/images/glyphicons_social_31_twitter.png"/></a>
-    
-    
-    <a title="GitHub" href="https://github.com/omar12"><img src="/web-technologist-log/images/glyphicons_social_21_github.png"/></a>
-    
-    
-  </div>
+<body   >
+  <div class="aux-container">
+    <a id="nav-toggle" href="#sidr"></a>
+    <a id="search-toggle"></a>
 </div>
 
-        </div>
-      </div>
-    </div>
+<header class="header-container clearfix">
+        <a href="/"><img src="/images/ah-frame.svg" onerror="this.onerror=null; this.src='ah-frame.png'"></a>
+</header>
 
-    <div class="article-list">
-      <div class="container">
-        
-          
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-              <article>
-  <h2><a href="/web-technologist-log/blog/2014/06/04/hardware-access-via-javascript/">Hardware Access via JavaScript</a></h2>
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+    	
+    	<aside>
+			
+			  	<div class="search-container">
+					<form action="http://google.com/search" method="get">
+						<fieldset role="search">
+							<input type="hidden" name="q" value="site:blog.alexharr.is" />
+							<input class="search-field" type="text" name="q" results="0" placeholder=""/>
+							<input class="submit" type="submit" value=""/>
+						</fieldset>
+					</form>
+				</div>
+			
+		  <div id="main-nav">
+    <nav>
+        <ul>
+        	<li>
+        		
+					<h3>Recent Posts</h3>
+<ul>
+	
+    <li>
+    	<a href="/blog/2014/06/21/css-will-change/">CSS Will-change</a>
+    </li>
+    
+    <li>
+    	<a href="/blog/2014/06/04/hardware-access-via-javascript/">Hardware Access via JavaScript</a>
+    </li>
+    
+    <li>
+    	<a href="/blog/2014/06/04/web-components/">Web Components</a>
+    </li>
+    
+    <li>
+    	<a href="/blog/2014/06/01/working-with-flex/">Working With Flex</a>
+    </li>
+    
+    <li>
+    	<a href="/blog/2014/06/01/the-web-technologist-log/">The Web Technologist Log</a>
+    </li>
+    
+</ul>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
   
-  <p>
-    <p>AHardware access via web browsers is becoming integral of web technologies.
+  <a href="https://github.com/omar12">@omar12</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'omar12',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:omartinez">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "omartinez"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+
+
+				
+        	</li>
+        	<li>
+        		<ul>
+                    <li>Projects - <a href="http://www.alexharr.is" target="_blank">alexharr.is</a>
+        			<li>Github - <a href="http://www.github.com/alexharris" target="_blank">github.com/alexharris</a></li>
+                    <li>Twitter - <a href="http://www.twitter.com/alexharris6" target="_blank">@alexharris6</a></li>
+                    <li>Email - <a href="mailto:alexharris6@gmail.com" target="_blank">alexharris6 at gmail</a></li>
+        		</ul>
+        	</li>
+        </ul>
+    </nav>
+</div>
+		</aside>
+		
+      
+
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
+  
+    <h1><a href="/blog/2014/06/21/css-will-change/">
+      CSS Will-change
+    </a></h1>
+  
+</header>
+
+  <section>
+</section>
+  
+  
+
+
+
+</article>
+
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
+  
+    <h1><a href="/blog/2014/06/04/hardware-access-via-javascript/">
+      Hardware Access via JavaScript
+    </a></h1>
+  
+</header>
+
+  <section><p>AHardware access via web browsers is becoming integral of web technologies.
 Web technology platforms are used more to develop apps that live outside of the
 web. Faster browser release cycles has to helped bring hardware access to web browsers.</p>
-
-
-
 
 <p>Portable devices now come with cameras, microphones, gyroscopes, GPS, light sensors
 and of course, the touch screen. Apps developed for the device have access to the device hardware.</p>
 
-
-
-
 <p>But that hasn’t stopped the people creating web technologies to move forward to
 have access to the hardware. Now we can access hardware using JavaScript, HTML and CSS(somewhat)!</p>
 
-
-
-
 <p>Below I will go over on some of the API’s that have access to your hardware.</p>
 
-
-
-
 <h3>GeoLocation</h3>
-
-
-
 
 <p><strong>GeoLocation</strong> will read your location and return position coordinates, its
 longitude and latitude.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -134,18 +235,14 @@ longitude and latitude.</p>
 </span><span class='line'>
 </span><span class='line'><span class="nx">id</span> <span class="o">=</span> <span class="nx">navigator</span><span class="p">.</span><span class="nx">geolocation</span><span class="p">.</span><span class="nx">watchPosition</span><span class="p">(</span><span class="nx">success</span><span class="p">,</span> <span class="nx">error</span><span class="p">,</span> <span class="nx">options</span><span class="p">);</span>
 </span><span class='line'><span class="nx">navigator</span><span class="p">.</span><span class="nx">geolocation</span><span class="p">.</span><span class="nx">clearWatch</span><span class="p">(</span><span class="nx">id</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h3>Detect Device Orientation</h3>
 
-
-
-
 <p>The device orientation returns the values collected by the Gyroscope.</p>
 
-
-<p><figure class='code'><figcaption><span> (orientation-1.js)</span> <a href='/web-technologist-log/code_examples/hardware-access/orientation-1.js'>download</a></figcaption></p>
-
+<figure class='code'><figcaption><span> (orientation-1.js)</span> <a href='/code_examples/hardware-access/orientation-1.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -156,13 +253,12 @@ longitude and latitude.</p>
 </span><span class='line'><span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;deviceorientation&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
 </span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">alpha</span> <span class="o">+</span> <span class="s1">&#39; : &#39;</span> <span class="o">+</span> <span class="nx">event</span><span class="p">.</span><span class="nx">beta</span> <span class="o">+</span> <span class="s1">&#39; : &#39;</span> <span class="o">+</span> <span class="nx">event</span><span class="p">.</span><span class="nx">gamma</span><span class="p">);</span>
 </span><span class='line'><span class="p">});</span>
-</span></code></pre></td></tr></table></div>
+</span></code></pre></td></tr></table></div></figure>
 
 
-<p></figure></p>
 
-<p><figure class='code'><figcaption><span> (orientation-2.js)</span> <a href='/web-technologist-log/code_examples/hardware-access/orientation-2.js'>download</a></figcaption></p>
 
+<figure class='code'><figcaption><span> (orientation-2.js)</span> <a href='/code_examples/hardware-access/orientation-2.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -197,15 +293,10 @@ longitude and latitude.</p>
 </span><span class='line'><span class="kd">var</span> <span class="nx">handleOrientationEvent</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">frontToBack</span><span class="p">,</span> <span class="nx">leftToRight</span><span class="p">,</span> <span class="nx">rotateDegrees</span> <span class="p">){</span>
 </span><span class='line'>    <span class="c1">//do something amazing</span>
 </span><span class='line'><span class="p">};</span>
-</span></code></pre></td></tr></table></div>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<p></figure></p>
 
 <p>To explain:</p>
-
-
-
 
 <ul>
 <li><strong>alpha</strong> &ndash; rotation of z-axis &ndash; how far the device is rotated around a line perpendicular to the device.</li>
@@ -214,32 +305,22 @@ longitude and latitude.</p>
 </ul>
 
 
-
-
 <h3>Read More:</h3>
-
-
-
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/Reference/Events/deviceorientation"><code>deviceOrientation</code></a> (Mozilla)</p>
 
-
-
-
 <h3>Camera or Microphone Access</h3>
-
-
-
 
 <p><code>getUserMedia</code> prompts the user for access to the media device.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='js'><span class='line'><span class="nx">navigator</span><span class="p">.</span><span class="nx">getUserMedia</span><span class="p">(</span><span class="nx">constraints</span><span class="p">,</span> <span class="nx">successCallback</span><span class="p">,</span> <span class="nx">errorCallback</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
 
-<p><figure class='code'><figcaption><span> (getUserMedia.js)</span> <a href='/web-technologist-log/code_examples/hardware-access/getUserMedia.js'>download</a></figcaption></p>
 
+
+
+<figure class='code'><figcaption><span> (getUserMedia.js)</span> <a href='/code_examples/hardware-access/getUserMedia.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -280,15 +361,10 @@ longitude and latitude.</p>
 </span><span class='line'>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;Oh noes, there was the following error:&quot;</span> <span class="o">+</span> <span class="nx">err</span><span class="p">);</span>
 </span><span class='line'>  <span class="p">}</span>
 </span><span class='line'><span class="p">);</span>
-</span></code></pre></td></tr></table></div>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<p></figure></p>
 
 <h4>Read More</h4>
-
-
-
 
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator-42"><code>getUserMedia</code></a></li>
@@ -296,20 +372,13 @@ longitude and latitude.</p>
 </ul>
 
 
-
-
 <h3>Battery API</h3>
-
-
-
 
 <p>The <strong>Battery API</strong> provides information about the systems battery. This can be
 used to measure the battery usage that your app is using. This can be used to
 manage your apps resources, what to trigger and what not.</p>
 
-
-<p><figure class='code'><figcaption><span> (battery-api.js)</span> <a href='/web-technologist-log/code_examples/hardware-access/battery-api.js'>download</a></figcaption></p>
-
+<figure class='code'><figcaption><span> (battery-api.js)</span> <a href='/code_examples/hardware-access/battery-api.js'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -336,153 +405,95 @@ manage your apps resources, what to trigger and what not.</p>
 </span><span class='line'><span class="nx">battery</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&quot;chargingchange&quot;</span><span class="p">,</span> <span class="nx">updateBatteryStatus</span><span class="p">);</span>
 </span><span class='line'><span class="nx">battery</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">&quot;levelchange&quot;</span><span class="p">,</span> <span class="nx">updateBatteryStatus</span><span class="p">);</span>
 </span><span class='line'><span class="nx">updateBatteryStatus</span><span class="p">();</span>
-</span></code></pre></td></tr></table></div>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<p></figure></p>
 
 <h4>Read More:</h4>
 
-
-
-
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager"><code>BatteryManager</code></a></p>
 
-
-
-
 <h3>Vibrate</h3>
-
-
-
 
 <p>The method pulses the vibration hardware on the device. You can send a pattern for
 the vibration you want to trigger. The pattern alternates from the duration of the
 vibration and the pause.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class='js'><span class='line'><span class="c1">// heartbeat pattern (short vibration (100), short pause(20), longer pause(500))</span>
 </span><span class='line'><span class="nb">window</span><span class="p">.</span><span class="nx">navigator</span><span class="p">.</span><span class="nx">vibrate</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">500</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>A fun way to implement it, is by synching it to transitions and animations on screen.</p>
 
-
-
-
 <h4>Read More:</h4>
-
-
-
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator-31"><code>Navigator.vibrate()</code></a></p>
 
-
-
-
 <h3>Ambient Light</h3>
-
-
-
 
 <p>Ambient light provides information from the phot sensors about the light levels
 near the device.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='js'><span class='line'><span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;devicelight&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
 </span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
 </span><span class='line'><span class="p">});</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>A creative approach to the Ambient light, is to have a story adjust the mood depending
 on the amount of light in the room.</p>
 
-
-
-
 <h3>Touch Events</h3>
-
-
-
 
 <p>Touch Events are easy to overlook as hardware access since touch is the way we input
 on portable devices. Multi touch and gestures are exclusive input events to touch screens.</p>
-
-
-
 
 <p>I&rsquo;m not going expand here about touch devices, but you can read more about it:
 * <a href="http://www.w3.org/TR/2013/REC-touch-events-20131010/">W3 </a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Touch_events">Mozilla: Touch Events</a>
 * <a href="http://eightmedia.github.io/hammer.js/">hammer.js</a> &ndash; JavaScript library with various touch events.</p>
 
-
-
-
 <h3>FileReader</h3>
-
-
-
 
 <p>A brief mention is being able to read the files on the device. <a href="https://github.com/coremob/camera">Coremob Camera</a>
 is an attempt to build a camera using web technologies.</p>
 
-
-
-
 <h3>More Reading</h3>
-
-
-
 
 <ul>
 <li><a href="http://mobilehtml5.org/">Mobile HTML5 Compatability Table</a></li>
 <li><a href="http://www.w3.org/TR/2010/REC-mwabp-20101214/">Mobile Web Best Practices</a></li>
 </ul>
 
-
-
-
-  </p>
-  <span class="meta">
-    written 
-
-
-
-
-
-
-
-
+</section>
+  
   
 
 
 
-<time datetime="2014-06-04T18:59:31-07:00" pubdate data-updated="true">Jun 4<span>th</span>, 2014</time>
-    
-
-
-  </span>
-
-  
 </article>
 
-            </div>
-          </div>
-        
-          
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-              <article>
-  <h2><a href="/web-technologist-log/blog/2014/06/04/web-components/">Web Components</a></h2>
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
   
-  <p>
-    <p>Probably by now, you have heard of Web Components. Web Components are comprised
+    <h1><a href="/blog/2014/06/04/web-components/">
+      Web Components
+    </a></h1>
+  
+</header>
+
+  <section><p>Probably by now, you have heard of Web Components. Web Components are comprised
 of four different specifications (
 <a href="http://www.polymer-project.org/platform/custom-elements.html">Custom Elements</a>,
 <a href="http://www.polymer-project.org/docs/polymer/template.html">Templates</a>,
@@ -490,82 +501,52 @@ of four different specifications (
 <a href="http://www.polymer-project.org/platform/html-imports.html">HTML imports</a>). It&rsquo;s
 a neat placed package of web technologies.</p>
 
-
-
-
 <p>The goal of Web Components, is to organize and standardize best practices for web
 technologies. We all have seen or experienced how polluted a project can get when we
 start adding dependencies to it.</p>
 
-
-
-
 <p>A Web Component is meant to keep things organized, to not conflict with the existing
 DOM and reduce the amount spent learning the code or API.</p>
 
-
-
-
 <p>Some ideas of where Web Components would work:</p>
-
-
-
 
 <ul>
 <li>Photo Carousel &ndash; <code>&lt;photo-carousel src="['pic1.jpg', 'pic2.jpg']"&gt;&lt;/photo-carousel&gt;</code></li>
 <li>Twitter Profile Card &ndash; <code>&lt;twitter-profile-card user="omar12" tweets="5"&gt;&lt;/twitter-profile-card&gt;</code></li>
 <li>Stripe Payment Form &ndash; <code>&lt;stripe-payment id="12345"&gt;&lt;/stripe-payment&gt;</code></li>
 <li>Disqus Comments &ndash; <code>&lt;disqus-comments short_name="awesomeblog"&gt;&lt;/disqus-comments&gt;</code></li>
-<li>Video Player &ndash; <code>&lt;my-video-player src="/web-technologist-log/path-to-video/videofile.mp4"&gt;&lt;/my-video-player&gt;</code></li>
+<li>Video Player &ndash; <code>&lt;my-video-player src="/path-to-video/videofile.mp4"&gt;&lt;/my-video-player&gt;</code></li>
 </ul>
-
-
 
 
 <p>SaaS companies can provide inhouse Web Components to their customers and have it
 running in no time.</p>
 
-
-
-
 <p>In &ldquo;Old HTML&rdquo; terms, a Web Component is a JavaScript plugin on an iframe. We know
 that even has its limitations and it feels wrong in some way. But please, don&rsquo;t
 think of them like that.</p>
 
-
-
-
 <h3>How to work with Web Components using Polymer</h3>
 
-
-
-
 <p>1.Download Polymer</p>
-
-
-
 
 <p>We will download Polymer using Bower. If you haven&rsquo;t heard of Bower, it&rsquo;s basically
 a package manager for project dependencies. Find out more about Bower <a href="http://bower.io/">here</a>.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>bower init
-</span><span class='line'>bower install &mdash;save Polymer/platform
-</span><span class='line'>bower install &mdash;save Polymer/polymer
-</span></code></pre></td></tr></table></div></figure></p>
+</span><span class='line'>bower install --save Polymer/platform
+</span><span class='line'>bower install --save Polymer/polymer
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Read more about the installation <a href="http://www.polymer-project.org/docs/start/getting-the-code.html">here</a>.</p>
 
-
-
-
 <p>2.We add the following in the <code>&lt;head&gt;</code> of where you will include your Web Component.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -573,29 +554,22 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;head&gt;</span>
-</span><span class='line'>  <span class="c">&lt;!&mdash; 1. Import the Web Components Polyfill &mdash;&gt;</span>
+</span><span class='line'>  <span class="c">&lt;!-- 1. Import the Web Components Polyfill --&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">&quot;bower_components/platform/platform.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
 </span><span class='line'>
-</span><span class='line'>  <span class="c">&lt;!&mdash; 2. Import the Custom Elements&mdash;&gt;</span>
+</span><span class='line'>  <span class="c">&lt;!-- 2. Import the Custom Elements--&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;import&quot;</span> <span class="na">href=</span><span class="s">&quot;web-components/my-cool-element.html&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'><span class="nt">&lt;/head&gt;</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>The 2 things to notice, is that we need to include the Polymer Polyfill.</p>
 
-
-
-
 <p>3.Build your Polymer element.</p>
-
-
-
 
 <p>Create an html file in the <strong>web-component</strong> folder.</p>
 
-
-<p><figure class='code'><figcaption><span> (my-cool-element.html)</span> <a href='/web-technologist-log/code_examples/web-components/my-cool-element.html'>download</a></figcaption></p>
-
+<figure class='code'><figcaption><span> (my-cool-element.html)</span> <a href='/code_examples/web-components/my-cool-element.html'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -616,16 +590,12 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 </span><span class='line'>    <span class="nt">&lt;/template&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="err">&lt;</span>/polymer-element&gt;
-</span></code></pre></td></tr></table></div>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<p></figure></p>
 
 <p>You can include Custom Elements on other Custom Elements (cue Xhibit meme).</p>
 
-
-<p><figure class='code'><figcaption><span> (my-super-cool-element.html)</span> <a href='/web-technologist-log/code_examples/web-components/my-super-cool-element.html'>download</a></figcaption></p>
-
+<figure class='code'><figcaption><span> (my-super-cool-element.html)</span> <a href='/code_examples/web-components/my-super-cool-element.html'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -650,33 +620,19 @@ a package manager for project dependencies. Find out more about Bower <a href="h
 </span><span class='line'>    <span class="nt">&lt;/template&gt;</span>
 </span><span class='line'>
 </span><span class='line'><span class="err">&lt;</span>/polymer-element&gt;
-</span></code></pre></td></tr></table></div>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<p></figure></p>
 
 <p>Of course, the above is not a practical example, but something to manipulate or
 read data.</p>
 
-
-
-
 <p>Right now, Web Components are <a href="http://jonrimmer.github.io/are-we-componentized-yet/">partially supported</a>
 on Chrome/Opera (Blink) and Firefox. No support on Safari or IE.</p>
-
-
-
 
 <p>Keep an eye on it, Google and Mozilla are spending good amounts of
 energy behind Web Components, we can only hope more adoption of the technologies.</p>
 
-
-
-
 <h3>More Reading and Resources</h3>
-
-
-
 
 <ul>
 <li><a href="http://webcomponents.org/">http://webcomponents.org/</a></li>
@@ -685,124 +641,94 @@ energy behind Web Components, we can only hope more adoption of the technologies
 <li><a href="http://component.kitchen/">http://component.kitchen/</a></li>
 </ul>
 
-
-
-
-  </p>
-  <span class="meta">
-    written 
-
-
-
-
-
-
-
-
+</section>
+  
   
 
 
 
-<time datetime="2014-06-04T14:30:00-07:00" pubdate data-updated="true">Jun 4<span>th</span>, 2014</time>
-    
-
-
-  </span>
-
-  
 </article>
 
-            </div>
-          </div>
-        
-          
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-              <article>
-  <h2><a href="/web-technologist-log/blog/2014/06/01/working-with-flex/">Working With Flex</a></h2>
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
   
-  <p>
-    <p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
+    <h1><a href="/blog/2014/06/01/working-with-flex/">
+      Working With Flex
+    </a></h1>
+  
+</header>
+
+  <section><p>Flexbox (or flex layout) is a CSS box model optimized for user interface design.
 The child elements of a flex container have greater &ldquo;flexibility&rdquo; on how it is
 laid out on an HTML page. This means that it provides a simpler and more powerful
 tool for distributing space and aligning content for complex (or simple) layouts
 in web apps or web pages.</p>
 
-
-
-
 <p>Using Flexbox can get your Responsive website layout working as intended.</p>
-
-
-
 
 <p>Below is the barebones to get Flexbox going. The example is keeping the &ldquo;Mobile First&rdquo;
 approach.</p>
 
-
-
-
 <p><a href="http://codepen.io/Omar12/full/itDzI/"><strong>View Demo</strong></a></p>
-
-
-
 
 <h3>The following is a barebones example of the HTML:</h3>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;flex&mdash;products&quot;</span><span class="nt">&gt;</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;flex--products&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 1<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 2<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 3<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;product&quot;</span><span class="nt">&gt;</span>Product 4<span class="nt">&lt;/div&gt;</span>
 </span><span class='line'><span class="nt">&lt;/div&gt;</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>First we define <code>display: flex</code> to the parent element that we want to hold the
 elements that will flex.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>  <span class="k">display</span><span class="o">:</span> <span class="n">flex</span><span class="p">;</span>
-</span><span class='line'>  <span class="n">flex</span><span class="o">&ndash;</span><span class="k">direction</span><span class="o">:</span> <span class="n">row</span><span class="p">;</span>
+</span><span class='line'>  <span class="n">flex</span><span class="o">-</span><span class="k">direction</span><span class="o">:</span> <span class="n">row</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p><code>flex-direction: row</code> will place each child element on its own row.</p>
 
-
-
-
 <p>For wider viewports, we will switch the elements to be in its each column.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
 </pre></td><td class='code'><pre><code class='scss'><span class='line'><span class="k">@media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="nd">:</span> <span class="nt">46rem</span><span class="o">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>    <span class="na">flex-direction</span><span class="o">:</span> <span class="n">column</span><span class="p">;</span>
 </span><span class='line'>  <span class="p">}</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>For the child elements, we define a <code>flex: auto</code>. <code>flex: auto</code> will automatically
 adjust the widths of the adjacent elements.</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -814,12 +740,12 @@ adjust the widths of the adjacent elements.</p>
 </span><span class='line'>  <span class="na">margin</span><span class="o">:</span> <span class="mf">.1</span><span class="kt">rem</span><span class="p">;</span>
 </span><span class='line'>  <span class="na">background</span><span class="o">:</span> <span class="nv">$product-color</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Full SCSS:</p>
 
-
-<p><figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -862,7 +788,7 @@ adjust the widths of the adjacent elements.</p>
 </span><span class='line'>  <span class="na">padding</span><span class="o">:</span> <span class="mf">.5</span><span class="kt">rem</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
 </span><span class='line'>
-</span><span class='line'><span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</span><span class='line'><span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>  <span class="na">display</span><span class="o">:</span> <span class="n">flex</span><span class="p">;</span>
 </span><span class='line'>  <span class="na">flex-direction</span><span class="o">:</span> <span class="n">row</span><span class="p">;</span>
 </span><span class='line'><span class="p">}</span>
@@ -875,21 +801,16 @@ adjust the widths of the adjacent elements.</p>
 </span><span class='line'><span class="p">}</span>
 </span><span class='line'>
 </span><span class='line'><span class="k">@media</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="nd">:</span> <span class="nt">46rem</span><span class="o">)</span> <span class="p">{</span>
-</span><span class='line'>  <span class="nc">.flex&mdash;products</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nc">.flex--products</span> <span class="p">{</span>
 </span><span class='line'>    <span class="na">flex-direction</span><span class="o">:</span> <span class="n">column</span><span class="p">;</span>
 </span><span class='line'>  <span class="p">}</span>
 </span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure></p>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <h3>Below you will find more Flexbox resources:</h3>
 
-
-
-
 <p><strong>Reading</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks: A Guide To Flexbox</a></li>
@@ -897,12 +818,7 @@ adjust the widths of the adjacent elements.</p>
 </ul>
 
 
-
-
 <p><strong>Code</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://www.sketchingwithcss.com/samplechapter/cheatsheet.html">The Ultimate Flexbox Cheat Sheet</a></li>
@@ -910,12 +826,7 @@ adjust the widths of the adjacent elements.</p>
 </ul>
 
 
-
-
 <p><strong>Sandboxes</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://bennettfeely.com/flexplorer/">flexexplorer</a></li>
@@ -923,12 +834,7 @@ adjust the widths of the adjacent elements.</p>
 </ul>
 
 
-
-
 <p><strong>Technical</strong></p>
-
-
-
 
 <ul>
 <li><a href="http://www.w3.org/TR/css3-flexbox/">W3C Flexible Box Layout Module</a></li>
@@ -936,121 +842,93 @@ adjust the widths of the adjacent elements.</p>
 <li><a href="http://caniuse.com/flexbox">Can I Use.com</a></li>
 </ul>
 
-
-
-
-  </p>
-  <span class="meta">
-    written 
-
-
-
-
-
-
-
-
+</section>
+  
   
 
 
 
-<time datetime="2014-06-01T18:40:22-07:00" pubdate data-updated="true">Jun 1<span>st</span>, 2014</time>
-    
-
-
-  </span>
-
-  
 </article>
 
-            </div>
-          </div>
-        
-          
-          <div class="row">
-            <div class="col-md-offset-3 col-md-6">
-              <article>
-  <h2><a href="/web-technologist-log/blog/2014/05/31/the-web-technologist-log/">The Web Technologist Log</a></h2>
+
+<article>
+	<header>
+  <div class="article-tags">
+      
+
+
+  </div>
   
-  <p>
-    <p>Web Technologies are in a continual enhancement. We see new API&rsquo;s that bring
+    <h1><a href="/blog/2014/06/01/the-web-technologist-log/">
+      The Web Technologist Log
+    </a></h1>
+  
+</header>
+
+  <section><p>Web Technologies are in a continual enhancement. We see new API&rsquo;s that bring
 different visual, performance or hardware information features.</p>
-
-
-
 
 <p>The log will be a collection of any upcoming browser features. It will describe
 how it does, a code sample of how it should work, a working example and any
 external resources available.</p>
-
-
-  </p>
-  <span class="meta">
-    written 
-
-
-
-
-
-
-
-
+</section>
+  
   
 
 
 
-<time datetime="2014-05-31T22:19:21-07:00" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
-    
-
-
-  </span>
-
-  
 </article>
 
-            </div>
-          </div>
-        
-      </div>
-    </div>
+<div class="pagination">
 
-    <hr class="divider-short"/>
 
-    <div class="archive-link">
-      <h3><a href="/web-technologist-log/posts/">All Posts</a></h3>
-    </div>
-  </div>
-</div>
 
-    <footer id="footer" class="her-row">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-1">
-  <a href="/"><h4>Home</h4></a>
-</div>
-
-<div class="col-md-2">
-  <div class="social-icon-list">
-    
-    <a href="https://twitter.com/omar12"><img src="/images/glyphicons_social_31_twitter.png"/></a>
-    
-
-    
-    <a href="https://github.com/omar12"><img src="/images/glyphicons_social_21_github.png"/></a>
-    
-
-    
-  </div>
-</div>
-
-<div class="pull-right">
-  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
 </div>
 
 
     </div>
   </div>
+  <footer class="main-footer">
+	<section class="interior-footer">
+		<span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+	</section>
 </footer>
 
-  </body>
+
+  
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'webtechnologistloggh';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+</body>
 </html>
