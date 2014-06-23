@@ -6,7 +6,7 @@ comments: true
 categories:
 ---
 
-AHardware access via web browsers is becoming integral of web technologies.
+Hardware access via web browsers is becoming integral of web technologies.
 Web technology platforms are used more to develop apps that live outside of the
 web. Faster browser release cycles has to helped bring hardware access to web browsers.
 

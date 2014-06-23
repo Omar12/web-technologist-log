@@ -1,15 +1,29 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 {% include head.html %}
-  <body>
-    <a href="/web-technologist-log/" class="home-icon">
-      <img src="/web-technologist-log/images/home.png"/>
-    </a>
-
-    {{ content | expand_urls: root_url }}
-    {% include footer.html %}
-  </body>
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
+  {% include header.html %}
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+    	{% unless page.sidebar == false %}
+    	<aside>
+			{% if site.simple_search %}
+			  	<div class="search-container">
+					<form action="http://google.com/search" method="get">
+						<fieldset role="search">
+							<input type="hidden" name="q" value="site:blog.alexharr.is" />
+							<input class="search-field" type="text" name="q" results="0" placeholder=""/>
+							<input class="submit" type="submit" value=""/>
+						</fieldset>
+					</form>
+				</div>
+			{% endif %}
+		  {% include navigation.html %}
+		</aside>
+		{% endunless %}
+      {{ content | expand_urls: root_url }}
+    </div>
+  </div>
+  {% include footer.html %}
+  {% include after_footer.html %}
+</body>
 </html>

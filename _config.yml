@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://Omar12.github.io/web-technologist-log
+url: http://omar12.github.io/web-technologist-log
 title: Web Technologist Log
 subtitle: A record of the latest web technologies
 author: Omar Martinez
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /web-technologist-log/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,11 +26,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-# root: /web-technologist-log
-# root: /
+root: /web-technologist-log
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/web-technologist-log
 plugins: plugins
 code_dir: code_examples
 category_dir: blog/categories
