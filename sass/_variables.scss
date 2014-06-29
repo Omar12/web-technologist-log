@@ -1,9 +1,9 @@
 // Colors
 
-$brandblue: #2C3E50;
+$brandblue: #2e457d;
 $lightBlue: #E2EEF2;
-$blue: lighten($brandblue, 30%);
-$darkBlue: #374D61;
+$blue: $brandblue;
+$darkBlue: darken($brandblue, 10%);
 $lightGrey: #ABABAB;
 $darkGrey: #383838;
 $red: #DA3E10;

@@ -76,7 +76,7 @@ nav {
 	margin: 0 1px 20px 0;
 	width: 75%;
 	border: none;
-	color: $darkGrey;
+	color: #fff;
 	background-color: $blue;
 	float: left;
 	border-radius: 2px 0 0 2px;
@@ -84,14 +84,15 @@ nav {
 
 .submit {
 	padding: 10px 2%;
-	background-color: $blue;
+	background-color: $brandblue;
 	border: 0;
 	width: 16%;
-	background: $blue url("/web-technologist-log/images/icon-search.svg") no-repeat center center;
+	background: $brandblue url("/web-technologist-log/images/icon-search-active.png") no-repeat center center;
+  color: #fff;
 	border-radius: 0 2px 2px 0;
 	&:hover {
-		background-color: $darkBlue;
-		background: $darkBlue url("/web-technologist-log/images/icon-search-active.svg") no-repeat center center;
+		background-color: lighten($brandblue, 10%);
+		background: lighten($brandblue, 10%) url("/web-technologist-log/images/icon-search-active.png") no-repeat center center;
 	}
 }
 
